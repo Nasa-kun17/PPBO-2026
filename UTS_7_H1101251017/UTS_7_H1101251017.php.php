@@ -26,10 +26,10 @@ class Aksesoris extends ProdukElektronik {
     public function getJenis(){ return "Aksesoris"; }
     public function cetakDetail(){ return "Berat: ".$this->beratGram." Gram"; }
 }
-$o1 = new HP("HP01", "NamaKamu", 3000000, 8);
-$o2 = new Laptop("LP01", "Teman1", 9000000, 512);
-$o3 = new Aksesoris("AK01", "Teman2", 150000, 200);
-$o4 = new HP("HP02", "iPhone 13", 11000000, 6);
+$o1 = new HP("HP01", "Hizbullah", 3000000, 8);
+$o2 = new Laptop("LP01", "Riko", 9000000, 512);
+$o3 = new Aksesoris("AK01", "Dani", 150000, 200);
+$o4 = new HP("HP02", "Eko", 11000000, 6);
 $o5 = new Laptop("LP02", "ASUS ROG", 15000000, 1024);
 echo $o1->getId()." | ".$o1->getNama()." | ".$o1->getJenis()." | Rp".$o1->getHargaDasar()." | Total: Rp".$o1->hitungTotal()." | ".$o1->cetakDetail()."<br>";
 echo $o2->getId()." | ".$o2->getNama()." | ".$o2->getJenis()." | Rp".$o2->getHargaDasar()." | Total: Rp".$o2->hitungTotal()." | ".$o2->cetakDetail()."<br>";
