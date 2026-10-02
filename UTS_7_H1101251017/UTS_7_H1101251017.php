@@ -15,7 +15,7 @@ class HP extends ProdukElektronik {
 class Laptop extends ProdukElektronik {
     private $ssdGb;
     public function __construct($i,$n,$h,$s){ parent::__construct($i,$n,$h); $this->ssdGb=$s; }
-    public function hitungTotal(){ $t = $this->hargaDasar + (50000 * $this->ssdGb); return $t > 10000000 ? $t * 0.95 : $t; }
+    public function hitungTotal(){ $t = $this->hargaDasar + (50000 * $this->ssdGb); return $t > 10000000 ? $t * 0.93 : $t; }
     public function getJenis(){ return "Laptop"; }
     public function cetakDetail(){ return "SSD: ".$this->ssdGb." GB"; }
 }
