@@ -1,0 +1,11 @@
+Tugas Akhir — Audit Project
+
+Ambil salah satu project PHP Anda (atau project Praktikum 2 sebelumnya). Lakukan audit SOLID:
+
+1. Buat tabel berisi daftar class dan potensi pelanggaran prinsip.
+2. Untuk setiap pelanggaran, usulkan perbaikannya.
+3. Refactor minimal satu class yang melanggar SRP atau OCP.
+4. Gambar class diagram sebelum dan sesudah refactor.
+5. Kumpulkan dalam format laporan PDF + ZIP project.
+
+Nama file: PBO_SOLID_NamaAnda_NIM.zip
